@@ -55,3 +55,12 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
+
+gem "jbuilder", "~> 2.5"
+gem "bcrypt"
+
+group :development, :test do
+  gem 'rspec-rails', '~> 3.0'
+end
+
+gem 'mysql2', '~> 0.4.10'
