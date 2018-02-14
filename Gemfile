@@ -64,3 +64,4 @@ group :development, :test do
 end
 
 gem 'mysql2', '~> 0.4.10'
+gem 'rake', '0.9.0'
