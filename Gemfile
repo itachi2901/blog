@@ -60,7 +60,7 @@ gem "jbuilder", "~> 2.5"
 gem "bcrypt"
 
 group :development, :test do
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails', '~> 3.8'
 end
 
 gem 'mysql2', '~> 0.4.10'
